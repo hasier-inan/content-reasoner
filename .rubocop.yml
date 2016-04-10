@@ -1,0 +1,10 @@
+AllCops:
+  Exclude:
+    - 'spec/helpers/**/*'
+    - 'content-reasoner.gemspec'
+
+Metrics/LineLength:
+  Max: 120
+
+GuardClause:
+  Enabled: false
